@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Booksky</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="navbar">
+      <h1>📘 Booksky</h1>
+      <p class="subtitle">Track your favorite books in one place</p>
+    </div>
+
+    <div class="quote-section">
+      <blockquote>“A room without books is like a body without a soul.”</blockquote>
+    </div>
+
+    <div class="book-count" id="book-count">
+      You have 0 books.
+    </div>
+
+    <div class="featured-book" id="featured-book" style="display: none;">
+      <strong>🌟 Featured:</strong> <span id="featured-title"></span> by <span id="featured-author"></span>
+    </div>
+
+    <div class="container" id="book-list"></div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+      <h2>Add New Book</h2>
+      <form>
+        <input type="text" placeholder="Book Title" id="book-title-input" />
+        <input type="text" placeholder="Author" id="book-author-input" />
+        <textarea placeholder="Short Description" id="book-description-input"></textarea>
+        <button id="add-book">ADD</button>
+        <button id="cancel-popup">CANCEL</button>
+      </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+  </div>
+
+  <footer>
+    <p>© 2025 All rights reserved. Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
