@@ -1,4 +1,4 @@
-#📘 Booksky
+## 📘 Booksky
 
 **Booksky** is a minimalist and responsive book tracking app built using **HTML**, **CSS**, and **JavaScript**.  
 You can add, edit, and delete books — and it remembers them even after you refresh (thanks to localStorage)!
